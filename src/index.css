@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    width:100%;
+    background: #0d1b2a;
+}
+
+.container{
+    max-width: 90%;
+    container-name:card;
+    container-type: inline-size;
+    margin: 0 auto
+   
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.hero-card{
+    border:1px solid red
+}
+img {
+    max-width: 100%;
+   
+  }
+
+
+
+ @container card (min-width:2000px) {
+    .card .image{
+        width:60rem;
+    }
+    .card .signup-image{
+        width:50rem;
+    }
+
+   
+ }
+
+ @media screen and (min-width:2000px) {
+    .auth-form
+    {
+        min-width:60rem;
+        font-size: 2rem;
+
+    }
+    .label{
+        font-size: 1.5rem;
+    }
+    .input-text{
+        height: 6rem;
+    }
+    .btn{
+        height: 6rem; 
+    }
+    .auth-header p{
+     font-size: 3rem;
+    
+    }
+    .auth-header img{
+        width:60px
+    }
+    .header-text p{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+    }
+    .auth-logos img{
+        width:80px;
+    }
+    .auth-logos{
+        margin-top: 1.5rem;
+    }
+    .span-link{
+        font-size: 1.7rem;
+    }
+ 
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
