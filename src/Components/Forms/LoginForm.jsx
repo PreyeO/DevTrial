@@ -37,7 +37,7 @@ const LoginForm = () => {
   return (
     <form
       className="flex flex-col gap-5 lg:w-[35rem]
-     md:w-[30rem] w-[15rem] mt-7 auth-form"
+     md:w-[30rem] w-[15rem]  auth-form"
       onSubmit={handleSubmit}
     >
       <TextInputs
