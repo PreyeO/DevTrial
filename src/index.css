@@ -23,7 +23,7 @@ body{
     max-width: 90%;
     container-name:card;
     container-type: inline-size;
-    margin-top: 2rem;
+    padding-top: 1rem;
     
    
 }

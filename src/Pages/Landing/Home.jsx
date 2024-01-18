@@ -1,3 +1,4 @@
+import Companies from "../../Components/Sections/Companies";
 import Features from "../../Components/Sections/Features";
 import Hero from "../../Components/Sections/Hero";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <main className=" font-barlow text-white text-center">
       <Hero />
       <Features />
+      <Companies />
     </main>
   );
 };
