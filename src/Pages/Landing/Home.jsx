@@ -1,6 +1,7 @@
 import Companies from "../../Components/Sections/Companies";
 import Features from "../../Components/Sections/Features";
 import Hero from "../../Components/Sections/Hero";
+import Footer from "../../Layouts/Footer";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Features />
       <Companies />
+      <Footer />
     </main>
   );
 };

@@ -4,8 +4,8 @@ import finance from "../../assets/finance.gif";
 const Hero = () => {
   return (
     <section className="">
-      <div className="container mx-auto">
-        <div className="hero-card px-[2%] flex justify-center flex-wrap lg:flex-nowrap">
+      <div className="container mx-auto pb-16 mt-7">
+        <div className="hero-card flex justify-center flex-wrap lg:flex-nowrap h-[695px]">
           <div className="flex flex-col justify-center border border-solid items-center">
             <div className="w-[80%] text-left flex flex-col gap-5 ">
               <h1 className="text-5xl  font-extrabold text-[#d9dcd6]">
